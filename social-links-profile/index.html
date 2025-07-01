@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      :root {
+        --Green: hsl(75, 94%, 57%);
+        --White: hsl(0, 0%, 100%);
+        --Grey-700: hsl(0, 0%, 20%);
+        --Grey-800: hsl(0, 0%, 12%);
+        --Grey-900: hsl(0, 0%, 8%);
+      }
+
+      @font-face {
+        font-family: "Inter-Bold";
+        src: url("./assets/fonts/static/Inter-Bold.ttf");
+      }
+
+      @font-face {
+        font-family: "Inter-Regular";
+        src: url("./assets/fonts/static/Inter-Regular.ttf");
+      }
+
+      @font-face {
+        font-family: "Inter-SemiBold";
+        src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--Grey-900);
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        font-size: 14px;
+        border-radius: 10px;
+        color: var(--White);
+        background: var(--Grey-800);
+      }
+
+      .avatar {
+        border-radius: 50%;
+		margin-bottom : 28px;
+      }
+      .name {
+        font-family: "Inter-SemiBold";
+        margin-bottom: 18px;
+        font-size: 24px;
+        text-align: center;
+      }
+      .city {
+        font-family: "Inter-SemiBold";
+        color: var(--Green);
+        text-align: center;
+		margin-bottom : 16px;
+      }
+      .description {
+        font-family: "Inter-Regular";
+        text-align: center;
+		margin-bottom : 28px;
+      }
+      .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .contact button {
+        background: var(--Grey-700);
+        color: var(--White);
+        border: none;
+        padding: 16px;
+        border-radius: 10px;
+        font-family: "Inter-Bold";
+      }
+      .contact button:hover,
+      .contact button:active,
+      .contact button:focus {
+        outline: none;
+        background: var(--Green);
+        color: var(--Grey-800);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img
+        class="avatar"
+        width="90"
+        height="90"
+        src="./assets/images/avatar-jessica.jpeg"
+        alt=""
+      />
+      <div class="name">Jessica Randall</div>
+      <div class="city">London, United Kingdom</div>
+      <div class="description">"Front-end developer and avid reader."</div>
+      <div class="contact">
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
+  </body>
+</html>
