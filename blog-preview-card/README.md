@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/BriWho/blog-preview-card](https://github.com/BriWho/blog-preview-card)
-- Live Site URL: [https://briwho.github.io/blog-preview-card/](https://briwho.github.io/blog-preview-card/)
+- Solution URL: [https://github.com/BriWho/frontendmentor/tree/main/blog-preview-card](https://github.com/BriWho/frontendmentor/tree/main/blog-preview-card)
+- Live Site URL: [https://briwho.github.io/frontendmentor/blog-preview-card/](https://briwho.github.io/frontendmentor/blog-preview-card/)
 
 ## My process
 
